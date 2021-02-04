@@ -23,7 +23,7 @@ def dh():
     # Return the year, month, day, hour, minute, second, and microsecond
     dh = datetime.datetime
     # Return the current local date.
-    time =dh.today()
+    time = dh.today()
     # Return the day of the week as an integer, where Monday is 0 and Sunday is 6.
     day = time.weekday()
     # Hour in range(24)
